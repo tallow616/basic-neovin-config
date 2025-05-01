@@ -60,6 +60,7 @@ return require("lazy").setup({
         "folke/which-key.nvim",
         event = "VeryLazy",
         opts = {
+            timeout = 300,
             -- your configuration comes here
             -- or leave it empty to use the default settings
             -- refer to the configuration section below
@@ -74,6 +75,7 @@ return require("lazy").setup({
             },
         },
     },
+
     -- Theme (load last after all functionality is configured)
     {
         "catppuccin/nvim",
